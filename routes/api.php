@@ -21,3 +21,4 @@ Route::get('/donors','DonorController@index');
 Route::post('/donors','DonorController@create');
 Route::get('/banks','BanksController@index');
 Route::post('/banks','BanksController@create');
+Route::post('/feedback','ContactController@create');
