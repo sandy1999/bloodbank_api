@@ -15,6 +15,6 @@ class BanksController extends Controller
 
    public function create(Request $request){
        $bank =  Banks::registerBank($request);
-       return response()->json($bank);
+       return response($bank);
    }
 }

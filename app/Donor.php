@@ -22,13 +22,4 @@ class Donor extends Model
         
         return $donor;
     }
-    // Donor::create([
-    //     'name'=>request('name'),
-    //     'age'=>request('age'),
-    //     'bloodgroup'=>request('bloodgroup'),
-    //     'contactnumber'=>request('contactnumber'),
-    //     'street'=>request('street'),
-    //     'city'=>request('city'),
-    //     'state'=>request('state')
-    // ]);
 }
